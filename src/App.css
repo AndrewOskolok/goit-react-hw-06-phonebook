@@ -1,0 +1,40 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-family: sans-serif;
+  color: rgb(0, 0, 200);
+  text-align: left;
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+.title-appear {
+  transform: translateX(-100%);
+}
+
+.title-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms linear;
+}
+
+.alert-enter {
+  transform: translateX(100%);
+}
+
+.alert-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+
+.alert-exit {
+  transform: translateX(0);
+}
+
+.alert-exit-active {
+  transform: translateX(100%);
+  transition: transform 250ms linear;
+}

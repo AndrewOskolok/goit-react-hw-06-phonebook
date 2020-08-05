@@ -1,0 +1,13 @@
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
